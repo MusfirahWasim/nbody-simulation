@@ -1,0 +1,16 @@
+# build output
+bin/
+*.o
+
+# python
+__pycache__/
+*.pyc
+
+# large generated trajectory files (CSV results, logs and plots ARE kept:
+# they are CCA deliverables)
+results/snapshots/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
