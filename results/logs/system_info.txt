@@ -1,12 +1,9 @@
-date: 2026-11-04T22:14:46+05:00
-cores (nproc): 4
-CPU(s):              4
-Model name:          Intel(R) Core(TM) i3-8130U CPU @ 2.20GHz
-Thread(s) per core:  2
-Core(s) per socket:  2
-CPU(s) scaling MHz:  100%
-CPU max MHz:         2208.0000
-CPU min MHz:         -1.0000
+date: 2026-11-06T22:17:43+05:00
+cores (nproc): 8
+CPU(s):                                  8
+Model name:                              11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      4
 compiler: g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
 mpi: 
-params: NS='10000' PS='1 2 4 8' STEPS=50 RUNS=2 INIT=0 SEED=42 DT=0.01 EPS=0.05 OVERSUB=1
+params: NS='100 500 1000 5000 10000' PS='1 2 4 8' STEPS=50 RUNS=3 INIT=0 SEED=42 DT=0.01 EPS=0.05 OVERSUB=1
